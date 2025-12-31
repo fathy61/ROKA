@@ -8,7 +8,6 @@ body {
   background: linear-gradient(to bottom, #000000, #851536);
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   justify-content: space-between;
   font-family: 'Poppins', sans-serif;
   overflow: hidden;
@@ -384,11 +383,11 @@ footer {
   gap: 12px;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   footer {
-    padding-bottom: 80px;
+    padding-bottom: 200px;
   }
-}
+} */
 
 footer p {
   font-size: 14px;
