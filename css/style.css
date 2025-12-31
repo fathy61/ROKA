@@ -382,6 +382,11 @@ footer {
   flex-direction: column;
   gap: 12px;
 }
+@media (max-width: 480px) {
+  footer {
+    margin-bottom: 20px;
+  }
+}
 
 footer p {
   font-size: 14px;
