@@ -386,7 +386,7 @@ footer {
 
 @media (max-width: 480px) {
   footer {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
 }
 
