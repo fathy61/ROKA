@@ -42,7 +42,7 @@ body {
 }
 
 .hero-content .hero-text {
-  font-size: 24px;
+  font-size: 35px;
   max-width: 600px;
   margin-bottom: 35px;
   color: #e5e7eb;
@@ -54,7 +54,7 @@ body {
 @media (max-width: 720px) {
   .hero-content .hero-text {
     margin-inline: 30px;
-    font-size: 18px;
+    font-size: 22px;
   }
   body {
     overflow: auto;
