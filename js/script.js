@@ -4,6 +4,7 @@ const wrapper = document.getElementById('page-wrapper');
 const whatsappBtn = document.querySelector('.whatsapp-btn');
 const whatsappModal = document.getElementById('whatsappModal');
 const closeModal = document.querySelector('.close-modal');
+const splash = document.getElementById('splash');
 
 downloadCheckbox.addEventListener('change', () => {
   if (downloadCheckbox.checked) {
@@ -12,8 +13,7 @@ downloadCheckbox.addEventListener('change', () => {
 });
 
 window.addEventListener('load', () => {
-  const splash = document.getElementById('splash');
-  const wrapper = document.getElementById('page-wrapper');
+
 
   setTimeout(() => {
     splash.classList.add('slide-up');
